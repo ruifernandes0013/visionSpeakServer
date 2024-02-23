@@ -1,9 +1,9 @@
 sentencepiece
 transformers
 torch
-fastapi
+flask
+flask_cors
 starlette
 aiofiles
 python-multipart
 Pillow
-uvicorn
