@@ -1,9 +1,6 @@
-sentencepiece
+flask
+Pillow
 transformers
 torch
-flask
 flask_cors
-starlette
-aiofiles
 python-multipart
-Pillow
