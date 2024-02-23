@@ -14,8 +14,8 @@ tokenizer = AutoTokenizer.from_pretrained("nlpconnect/vit-gpt2-image-captioning"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-max_length = 16
 num_beams = 4
+max_length = 16
 gen_kwargs = {"max_length": max_length, "num_beams": num_beams}
 
 def predict_step(image):
@@ -67,3 +67,4 @@ def predict_photo():
 
 if __name__ == '__main__':
     app.run(port=3002)
+ 
